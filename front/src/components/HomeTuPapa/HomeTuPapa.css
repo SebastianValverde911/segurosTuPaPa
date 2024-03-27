@@ -1,0 +1,8 @@
+.card-body {
+    width: 18rem;
+}
+
+.container-safe {
+    display: flex;
+    gap: 10px;
+}

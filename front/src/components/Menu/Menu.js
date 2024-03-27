@@ -1,16 +1,21 @@
 import React from 'react';
 import './Menu.css';
+import { Link } from 'react-router-dom';
 
 function Menu() {
   return (
     <div className='contenedor-menu'>
       <div className='contenedor-texto-menu'>
+      
         <p className='opcion-inicio'>
-          Inicio</p>
+          <Link className={'link'} to={'/home'}>Inicio</Link>
+        </p>
         <p className='opcion-facturas'>
-          Facturas</p>
+          <Link className={'link'} to={'/facturas'}>Facturas</Link>
+        </p>
         <p className='opcion-nosotros'>
-          Nosotros</p>
+          <Link className={'link'} to={'/nosotros'}>Nosotros</Link>
+        </p>
         
         <p className='opcion-cuenta'>Cuenta</p>
       </div>

@@ -2,9 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    color: black;
+    background-color: #383434;
+    color: #FFF;
     font-family: Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
   
   .contenedor-texto-menu {
