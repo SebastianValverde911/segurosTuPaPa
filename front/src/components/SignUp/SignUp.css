@@ -15,8 +15,3 @@ div h3 {
 .sign-up {
     font-size: 12px;
 }
-
-.sign-up a {
-    text-decoration: underline!important;
-    cursor: pointer;
-}

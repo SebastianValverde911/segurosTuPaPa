@@ -6,12 +6,7 @@ function Copyright() {
     <footer>
     <div className='contenedor-copy'>
       <div className='contenedor-texto-copy'>
-        <p className='opcion-terms'>Terms</p>
-        <p className='opcion-privacy'>Privacidad</p>
-        <p className='opcion-seguridad'>Seguridad</p>
-        <p className='opcion-estado'>Estado</p>
-        <p className='opcion-contacto'>Contacto</p>
-        <p className='opcion-cockies'>Cookies</p>
+        <p className='opcion-terms'>Copyright 2024 © Seguros tu papá. | Todos los derechos reservados - Diseño de páginas Web por Estudiantes UAO.</p>
       </div>
     </div>
     </footer>
