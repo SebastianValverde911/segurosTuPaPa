@@ -1,0 +1,17 @@
+.log {
+    background-color: #00000030;
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+div h3 {
+    text-align: center;
+}
+
+.sign-up {
+    font-size: 12px;
+}

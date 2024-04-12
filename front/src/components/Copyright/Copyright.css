@@ -1,0 +1,28 @@
+footer {
+    background-color: #383434; /* Cambia el color de fondo según tu preferencia */
+    padding: 20px 0; 
+    text-align: center; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+  
+  .contenedor-copy {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor-texto-copy{
+    display: flex;
+  }
+  
+  .opcion-terms,
+  .opcion-privacy,
+  .opcion-seguridad,
+  .opcion-estado,
+  .opcion-contacto,
+  .opcion-cookies {
+    margin: 0 10px;
+    cursor: pointer;
+  }
