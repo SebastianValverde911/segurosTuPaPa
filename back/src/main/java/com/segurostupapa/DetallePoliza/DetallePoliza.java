@@ -1,4 +1,4 @@
-package com.segurostupapa.CompraPoliza;
+package com.segurostupapa.DetallePoliza;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

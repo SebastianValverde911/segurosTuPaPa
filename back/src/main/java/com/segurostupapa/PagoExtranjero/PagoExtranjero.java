@@ -1,13 +1,7 @@
-package com.segurostupapa.CompraPoliza;
-
+package com.segurostupapa.PagoExtranjero;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PolizasSeguro {
-
-    public static void main(String[] args) {
-        SpringApplication.run(PolizasSeguro.class, args);
-    }
-
+public class PagoExtranjero {
 }
