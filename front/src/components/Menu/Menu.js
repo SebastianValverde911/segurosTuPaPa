@@ -16,6 +16,9 @@ function Menu() {
         <p className='opcion-nosotros'>
           <Link className={'link'} to={'/nosotros'}>Nosotros</Link>
         </p>
+        <p className='opcion-usuarios'>
+          <Link className={'link'} to={'/usuarios'}>Usuarios</Link>
+        </p>
         
         <p className='opcion-cuenta'>Cuenta</p>
       </div>

@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import {BrowserRouter,Route,Routes} from "react-router-dom";
 import Copyright from './components/Copyright/Copyright';
+import Users from './components/Users/Users';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/facturas" element={<Facturas />} />
             <Route path="/nosotros" element={<Nosotros />} />
+            <Route path="/usuarios" element={<Users />} />
           </Routes>
         </header>
         <Copyright />
