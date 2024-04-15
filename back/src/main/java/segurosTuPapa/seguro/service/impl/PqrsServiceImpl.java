@@ -1,11 +1,11 @@
 @Service
-package segurosTuPapa.seguros.service.impl;
+package segurosTuPapa.seguro.service.impl;
 
 import org.springframework.stereotype.Service;
 
-import segurosTuPapa.seguros.model.Pqrs;
-import segurosTuPapa.seguros.repository.PqrsRepository;
-import segurosTuPapa.seguros.service.PqrsService;
+import segurosTuPapa.seguro.model.Pqrs;
+import segurosTuPapa.seguro.repository.PqrsRepository;
+import segurosTuPapa.seguro.service.PqrsService;
 
 import java.util.List;
 import java.util.Optional;

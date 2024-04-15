@@ -1,6 +1,6 @@
-package segurosTuPapa.seguros.service;
+package segurosTuPapa.seguro.service;
 
-import segurosTuPapa.seguros.model.Pqrs;
+import segurosTuPapa.seguro.model.Pqrs;
 
 import java.util.List;
 import java.util.Optional;
