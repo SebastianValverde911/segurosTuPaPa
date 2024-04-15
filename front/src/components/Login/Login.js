@@ -1,9 +1,13 @@
 import './Login.css';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'
+import services from '../../services/services';
+import Notification from '../Notification/Notification';
+import { useState } from 'react';
 
 function Login() {
-    const naviagte = useNavigate()
+    const navigate = useNavigate()
+    const [showNotification, setShowNotification] = useState(false);
     function capturarNombreContranseña(e) {
         e.preventDefault();
         const usuario = e.target.correo.value;
@@ -12,10 +16,26 @@ function Login() {
         console.log(usuario);
         console.log(contraseña);
 
+        services.login(usuario,contraseña).then(response =>{
+            
+            console.log(response);
+            if(response.data[0].data) {
+                var tokenSession = response.data[0].tokenSession;
+                localStorage.setItem("token", tokenSession);
+                //localStorage.getItem("token");
+                
+                navigate('/home');
+            } else {
+                console.log(response.data[0].errorMessage);
+                setShowNotification(true);
+            }
+        });
+
         e.target.correo.value = "";
         e.target.contraseña.value = "";
-
-        naviagte('/home')
+        setTimeout(() => {
+            setShowNotification(false);
+        }, 2000);
     }
 
     return(
@@ -37,6 +57,7 @@ function Login() {
                     <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                     </form>
             </div>
+            {showNotification ? <Notification data={{status:'warning',message:'No existe el usuario.'}} />:<></>}
         </div>
     );
 }
