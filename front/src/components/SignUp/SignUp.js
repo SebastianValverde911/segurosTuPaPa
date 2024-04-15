@@ -1,34 +1,65 @@
 import './SignUp.css'
+import React, { useState } from 'react';
+
 function SignUp() {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
-    function capturarNombreContranseña(e) {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        const usuario = e.target.usuario.value;
-        const contraseña = e.target.contraseña.value;
 
-        console.log(usuario);
-        console.log(contraseña);
+        try {
+            // Enviar datos al backend
+            const response = await fetch('/registrarse', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ email, password })
+            });
 
-        e.target.usuario.value = "";
-        e.target.contraseña.value = "";
+            // Manejar la respuesta del backend
+            if (response.ok) {
+                console.log('Usuario registrado correctamente');
+                // Limpiar los campos después de enviar los datos al backend
+                setEmail('');
+                setPassword('');
+            } else {
+                console.error('Error al registrar el usuario:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Error al enviar los datos:', error);
+        }
+    };
 
-    }
-
-    return(
+    return (
         <div>
             <h3>Registrarse</h3>
-            <div className ="log">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Correo</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+            <div className="log">
+                <form onSubmit={handleSubmit}>
+                    <div className="mb-3">
+                        <label htmlFor="exampleInputEmail1" className="form-label">Correo</label>
+                        <input
+                            type="email"
+                            className="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1"></input>
+                    <div className="mb-3">
+                        <label htmlFor="exampleInputPassword1" className="form-label">Contraseña</label>
+                        <input
+                            type="password"
+                            className="form-control"
+                            id="exampleInputPassword1"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                        />
                     </div>
-                    <button type="submit" class="btn btn-primary">Registrarse</button>
-                    </form>
+                    <button type="submit" className="btn btn-primary">Registrarse</button>
+                </form>
             </div>
         </div>
     );
