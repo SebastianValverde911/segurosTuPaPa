@@ -13,6 +13,16 @@ class Services {
             'Content-Type': 'application/x-www-form-urlencoded'
           }});
     }
+
+    registry(nombre,apellido,correo,telefono,contraseña) {
+      return axios.post('http://localhost:8080/api/registry', {
+          "nombre": nombre,
+          "apellido": apellido,
+          "correo": correo,
+          "telefono": telefono,
+          "contraseña": contraseña
+        });
+  }
 }
 
 export default new Services();

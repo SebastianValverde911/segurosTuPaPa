@@ -1,6 +1,6 @@
 import './Login.css';
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 import services from '../../services/services';
 import Notification from '../Notification/Notification';
 import { useState } from 'react';

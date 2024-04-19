@@ -5,7 +5,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import segurosTuPapa.seguro.User;
+import segurosTuPapa.seguro.entity.User;
+import segurosTuPapa.seguro.repository.Iuser;
 
 
 import java.util.ArrayList;
@@ -15,15 +16,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class ControllerGetUsers {
-    private List<User> users = new ArrayList<>();
+    private Iuser Iuser;
 
     @GetMapping("/getUsers")
-    public ResponseEntity<List<User>> getUsers() {
-        users.add(new User("usuario1", "Usuario Uno", "juanseb1@hotmail.com"));
-        users.add(new User("usuario2", "Usuario Dos","juanseb2@hotmail.com"));
-        users.add(new User("usuario3", "Usuario Tres","juanse3@hotmail.com"));
-
-//      return new ResponseEntity<>(users, HttpStatus.OK);
-        return ResponseEntity.ok(users);
+    public List<User> getUsers() {
+        return Iuser.findAll();
     }
 }
