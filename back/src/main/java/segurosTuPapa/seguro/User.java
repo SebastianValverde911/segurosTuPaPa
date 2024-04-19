@@ -1,5 +1,9 @@
 package segurosTuPapa.seguro;
 
+
+@SpringBootApplication
+@Entity
+@Table (name = "usuario")
 public class User {
     private String nombre;
     private String apellido;

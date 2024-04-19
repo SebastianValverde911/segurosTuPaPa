@@ -26,4 +26,5 @@ public class ControllerGetUsers {
 //      return new ResponseEntity<>(users, HttpStatus.OK);
         return ResponseEntity.ok(users);
     }
+
 }
