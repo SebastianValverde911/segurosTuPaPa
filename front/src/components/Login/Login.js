@@ -1,6 +1,6 @@
 import './Login.css';
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 import services from '../../services/services';
 import Notification from '../Notification/Notification';
 import { useState } from 'react';
@@ -17,7 +17,6 @@ function Login() {
         console.log(contraseña);
 
         services.login(usuario,contraseña).then(response =>{
-            
             console.log(response);
             if(response.data[0].data) {
                 var tokenSession = response.data[0].tokenSession;
