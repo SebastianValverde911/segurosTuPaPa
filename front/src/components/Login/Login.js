@@ -6,6 +6,7 @@ import Notification from '../Notification/Notification';
 import { useState } from 'react';
 
 function Login() {
+    localStorage.removeItem("token");
     const navigate = useNavigate()
     const [showNotification, setShowNotification] = useState(false);
     function capturarNombreContranseña(e) {
@@ -21,6 +22,7 @@ function Login() {
             if(response.data[0].data) {
                 var tokenSession = response.data[0].tokenSession;
                 localStorage.setItem("token", tokenSession);
+                localStorage.setItem("usuarioCorreo", usuario);
                 //localStorage.getItem("token");
                 
                 navigate('/home');
