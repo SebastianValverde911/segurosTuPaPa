@@ -22,17 +22,21 @@ function Users() {
             <h2 className="text-center">Listado de usuarios</h2>
             <table className="table table-bordered table-striped">
                 <thead>
+                    <th>Id</th>
                     <th>Nombre</th>
                     <th>Apellido</th>
-                    <th>Email</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
                 </thead>
                 <tbody>
                     {
                         usuarios.map(usuario => 
                             <tr key={usuario.id}>
+                                <td>{usuario.id}</td>
                                 <td>{usuario.nombre}</td>
                                 <td>{usuario.apellido}</td>
-                                <td>{usuario.email}</td>
+                                <td>{usuario.correo}</td>
+                                <td>{usuario.telefono}</td>
                             </tr>
                         )
                     }

@@ -1,5 +1,6 @@
 package segurosTuPapa.seguro.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class ControllerGetUsers {
+    @Autowired
     private Iuser Iuser;
 
     @GetMapping("/getUsers")

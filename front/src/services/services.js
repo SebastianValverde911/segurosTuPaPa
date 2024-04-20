@@ -8,10 +8,8 @@ class Services {
     login(correo,contra) {
         return axios.post('http://localhost:8080/api/login', {
             "correo": correo,
-            "contra": contra
-          },{ headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-          }});
+            "contraseña": contra
+          });
     }
 
     registry(nombre,apellido,correo,telefono,contraseña) {

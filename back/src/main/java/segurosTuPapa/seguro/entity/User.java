@@ -24,12 +24,24 @@ public class User {
     @Column(name="contraseña")
     private String contraseña;
 
-    public User(String nombre, String apellido, String correo, String telefono , String contraseña){
+    public User(long id, String nombre, String apellido, String correo, String telefono , String contraseña){
+        this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.correo = correo;
         this.telefono = telefono;
         this.contraseña = contraseña;
+    }
+
+    public User() {
+
+    }
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getNombre() {
