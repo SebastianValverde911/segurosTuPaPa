@@ -17,7 +17,6 @@ function SignUp() {
         const contraseña = e.target.contraseña.value;
 
         services.registry(nombre,apellido,correo,telefono,contraseña).then(response =>{
-            debugger;
             console.log(response);
             if(response.status === 200) {
                 setShowNotification(true);

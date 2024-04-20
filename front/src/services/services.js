@@ -1,25 +1,46 @@
 import axios from 'axios';
 
 class Services {
-    getUsers() {
-        return  axios.get("http://localhost:8080/api/getUsers");
-    }
+  getUsers() {
+      return  axios.get("http://localhost:8080/api/getUsers");
+  }
 
-    login(correo,contra) {
-        return axios.post('http://localhost:8080/api/login', {
-            "correo": correo,
-            "contraseña": contra
-          });
-    }
+  getPolizas() {
+      return  axios.get("http://localhost:8080/api/getPolizas");
+  }
 
-    registry(nombre,apellido,correo,telefono,contraseña) {
-      return axios.post('http://localhost:8080/api/registry', {
-          "nombre": nombre,
-          "apellido": apellido,
+  getFacturas(id) {
+      return  axios.get(`http://localhost:8080/api/getFacturas/${id}`);
+  }
+
+  login(correo,contra) {
+      return axios.post('http://localhost:8080/api/login', {
           "correo": correo,
-          "telefono": telefono,
-          "contraseña": contraseña
+          "contraseña": contra
         });
+  }
+
+  registry(nombre,apellido,correo,telefono,contraseña) {
+    return axios.post('http://localhost:8080/api/registry', {
+        "nombre": nombre,
+        "apellido": apellido,
+        "correo": correo,
+        "telefono": telefono,
+        "contraseña": contraseña
+      });
+  }
+
+  comprapoliza(iduser, nombre, correo, apellido, telefono, coberturapoliza, formadepago, numerodecuotas ) {
+    return axios.post('http://localhost:8080/api/comprapoliza', {
+        "iduser": iduser,
+        "nombre": nombre,
+        "correo": correo,
+        "apellido": apellido,
+        "telefono": telefono,
+        "coberturapoliza": coberturapoliza,
+        "formadepago": formadepago,
+        "numerodecuotas": numerodecuotas,
+      });
   }
 }
 
