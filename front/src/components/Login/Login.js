@@ -41,7 +41,8 @@ function Login() {
         <div>
             <h3>Login</h3>
             <div className ="log">
-                <form onSubmit={capturarNombreContranseña}>
+                <form onSubmit={capturarNombreContranseña} method="POST">
+
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Correo</label>
                         <input type="email" class="form-control" id="correo" aria-describedby="emailHelp"></input>
@@ -54,7 +55,7 @@ function Login() {
                         ¿No tienes cuenta? <Link className={'link'} to={'/registrarte'}>Registrate</Link>
                     </div>
                     <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                    </form>
+                </form>
             </div>
             {showNotification ? <Notification data={{status:'warning',message:'No existe el usuario.'}} />:<></>}
         </div>

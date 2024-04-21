@@ -1,7 +1,11 @@
 package segurosTuPapa.seguro.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
 @Entity
 @Table(name = "comprapoliza")
 public class CompraPoliza {
@@ -49,75 +53,4 @@ public class CompraPoliza {
         this.iduser = iduser;
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public long getIduser() {
-        return iduser;
-    }
-
-    public void setIduser(long iduser) {
-        this.iduser = iduser;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getCorreo() {
-        return correo;
-    }
-
-    public void setCorreo(String correo) {
-        this.correo = correo;
-    }
-
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
-
-    public String getTelefono() {
-        return telefono;
-    }
-
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
-    }
-
-    public String getCoberturapoliza() {
-        return coberturapoliza;
-    }
-
-    public void setCoberturapoliza(String coberturapoliza) {
-        this.coberturapoliza = coberturapoliza;
-    }
-
-    public String getNumerodecuotas() {
-        return numerodecuotas;
-    }
-
-    public void setNumerodecuotas(String numerodecuotas) {
-        this.numerodecuotas = numerodecuotas;
-    }
-
-    public String getFormadepago() {
-        return formadepago;
-    }
-
-    public void setFormadepago(String formadepago) {
-        this.formadepago = formadepago;
-    }
 }

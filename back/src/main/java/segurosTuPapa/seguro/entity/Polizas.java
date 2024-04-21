@@ -1,7 +1,11 @@
 package segurosTuPapa.seguro.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
 @Entity
 @Table(name = "polizas")
 public class Polizas {
@@ -32,43 +36,4 @@ public class Polizas {
         this.cobertura = cobertura;
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public String getValor() {
-        return valor;
-    }
-
-    public void setValor(String valor) {
-        this.valor = valor;
-    }
-
-    public String getCobertura() {
-        return cobertura;
-    }
-
-    public void setCobertura(String cobertura) {
-        this.cobertura = cobertura;
-    }
 }

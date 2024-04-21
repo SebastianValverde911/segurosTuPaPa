@@ -2,25 +2,26 @@ import axios from 'axios';
 
 class Services {
     getUsers() {
-        return  axios.get("http://localhost:8080/api/getUsers");
+        return axios.get("http://localhost:8090/api/getUsers");
     }
 
-    login(correo,contra) {
-        return axios.post('http://localhost:8080/api/login', {
+    login(correo, contra) {
+        return axios.post('http://localhost:8090/api/login', {
             "correo": correo,
             "contraseña": contra
-          });
+        });
     }
 
-    registry(nombre,apellido,correo,telefono,contraseña) {
-      return axios.post('http://localhost:8080/api/registry', {
-          "nombre": nombre,
-          "apellido": apellido,
-          "correo": correo,
-          "telefono": telefono,
-          "contraseña": contraseña
+    registry(nombre, apellido, contrasena, correo, telefono) {
+        return axios.post('http://localhost:8090/api/registry', {
+            "nombre": nombre,
+            "apellido": apellido,
+            "contraseña": contrasena,
+            "correo": correo,
+            "telefono": telefono
         });
-  }
+    }
 }
 
-export default new Services();
+const servicesInstance = new Services();
+export default servicesInstance;

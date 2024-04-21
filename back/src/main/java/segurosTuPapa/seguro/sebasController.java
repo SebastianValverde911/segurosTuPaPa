@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/control")
 public class sebasController {
-    private List<User> users = new ArrayList<>();
+    private final List<User> users = new ArrayList<>();
 
     @GetMapping("/saludo/{nombre}")
     public ResponseEntity saludo(@PathVariable String nombre) {

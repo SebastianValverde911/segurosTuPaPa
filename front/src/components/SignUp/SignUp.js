@@ -16,7 +16,7 @@ function SignUp() {
         const correo = e.target.correo.value;
         const contraseña = e.target.contraseña.value;
 
-        services.registry(nombre,apellido,correo,telefono,contraseña).then(response =>{
+        services.registry(nombre,apellido,contraseña,correo,telefono).then(response =>{
             debugger;
             console.log(response);
             if(response.status === 200) {

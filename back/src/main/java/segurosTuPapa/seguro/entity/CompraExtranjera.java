@@ -2,7 +2,11 @@ package segurosTuPapa.seguro.entity;
 
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
 @Entity
 @Table(name = "compraextranjera")
 public class CompraExtranjera {
@@ -30,35 +34,4 @@ public class CompraExtranjera {
         this.monto = monto;
     }
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getIdTransaccion() {
-        return idTransaccion;
-    }
-
-    public void setIdTransaccion(String idTransaccion) {
-        this.idTransaccion = idTransaccion;
-    }
-
-    public String getMonto() {
-        return monto;
-    }
-
-    public void setMonto(String monto) {
-        this.monto = monto;
-    }
-
-    public String getMoneda() {
-        return moneda;
-    }
-
-    public void setMoneda(String moneda) {
-        this.moneda = moneda;
-    }
 }
