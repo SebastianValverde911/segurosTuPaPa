@@ -5,53 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e294da3d-14f9-4f17-9832-e0e162d9403b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/Compra/PayIntegrationApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/Compra/config/Paypalconfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/Compra/config/paypal/PaypalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/Compra/config/paypal/PaypalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/SeguroApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/controllers/ControllerGetUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/sebasController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/resources/templates/paymentCancel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/resources/templates/paymentError.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/resources/templates/paymentSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/test/java/segurosTuPapa/seguro/Compra/config/paypal/PaypalControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/test/java/segurosTuPapa/seguro/SeguroApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Users/Users.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/services/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/segurosTuPaPa-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/segurosTuPaPa-main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/back/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/back/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/back/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/segurostupapa/CompraPoliza/CompraPoliza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/segurostupapa/DetallePoliza/DetallePoliza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/segurostupapa/PagoExtranjero/PagoExtranjero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/segurostupapa/PolizasSeguro/PolizasSeguro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/segurostupapa/Usuarios/Usuarios.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/test/java/com/segurostupapa/segurostupapa/BackApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Menu/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/Compra/PayIntegrationApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/SeguroApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/controllers/ControllerGetUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/controllers/ControllerGetUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/sebasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/sebasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/templates/paymentCancel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/templates/paymentError.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/templates/paymentSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/SignUp/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/SignUp/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/services/services.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +59,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f41b66af9925b6476e18c77d476f905710ee8488/lombok-1.18.30-sources.jar!/lombok/extern/slf4j/Slf4j.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -144,14 +115,17 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Seguros tu papa\segurosTuPaPa-main\back\src\main\resources\templates" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="segurosTuPapa.seguro.Compra.config.paypal" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="SeguroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="PayIntegrationApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="cashcard.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="segurosTuPapa.seguro.SeguroApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="segurosTuPapa.seguro.PayIntegrationApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,6 +149,14 @@
       <workItem from="1713125828127" duration="20002000" />
       <workItem from="1713150414439" duration="98000" />
       <workItem from="1713150872834" duration="4213000" />
+      <workItem from="1713302592784" duration="2082000" />
+      <workItem from="1713381277509" duration="1602000" />
+      <workItem from="1713567281481" duration="3236000" />
+      <workItem from="1713584782519" duration="3911000" />
+      <workItem from="1713597780115" duration="4155000" />
+      <workItem from="1713628890414" duration="3927000" />
+      <workItem from="1713657437872" duration="4407000" />
+      <workItem from="1713665142535" duration="227000" />
     </task>
     <servers />
   </component>

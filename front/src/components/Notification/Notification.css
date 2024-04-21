@@ -1,0 +1,8 @@
+.container-notification {
+    position: absolute;
+    top: 0;
+}
+
+.toast-body {
+    background-color: #2e426b;
+}
