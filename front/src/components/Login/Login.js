@@ -6,6 +6,7 @@ import Notification from '../Notification/Notification';
 import { useState } from 'react';
 
 function Login() {
+    localStorage.removeItem("token");
     const navigate = useNavigate()
     const [showNotification, setShowNotification] = useState(false);
     function capturarNombreContranseña(e) {
@@ -21,8 +22,9 @@ function Login() {
             if(response.data[0].data) {
                 var tokenSession = response.data[0].tokenSession;
                 localStorage.setItem("token", tokenSession);
+                localStorage.setItem("usuarioCorreo", usuario);
                 //localStorage.getItem("token");
-                
+
                 navigate('/home');
             } else {
                 console.log(response.data[0].errorMessage);
@@ -41,8 +43,7 @@ function Login() {
         <div>
             <h3>Login</h3>
             <div className ="log">
-                <form onSubmit={capturarNombreContranseña} method="POST">
-
+                <form onSubmit={capturarNombreContranseña}>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Correo</label>
                         <input type="email" class="form-control" id="correo" aria-describedby="emailHelp"></input>

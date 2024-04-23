@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e294da3d-14f9-4f17-9832-e0e162d9403b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cashcard.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cashcard.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/CompraExtranjera.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/CompraExtranjera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/CompraPoliza.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/CompraPoliza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/Polizas.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/Polizas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/repository/Icompraextranjera.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/repository/Icompraextranjera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/SignUp/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/SignUp/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/services/services.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,18 +111,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\miguelangel.jt\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="78bdd462-6ee5-44b5-9fc4-2c33a754db7f" />
-        <option name="reportName" value="segurosTuPaPa-main/qodana/2024-04-21" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\miguelangel.jt\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="78bdd462-6ee5-44b5-9fc4-2c33a754db7f" reportId="segurosTuPaPa-main/qodana/2024-04-21" />
@@ -185,6 +171,8 @@
       <workItem from="1713725472132" duration="597000" />
       <workItem from="1713728942736" duration="1754000" />
       <workItem from="1713731943046" duration="6007000" />
+      <workItem from="1713739714010" duration="5067000" />
+      <workItem from="1713832040608" duration="2448000" />
     </task>
     <servers />
   </component>

@@ -13,8 +13,7 @@ spring:
     hibernate:
       ddl-auto: update
 
-server:
-  port: 8090
+
 
 paypal:
   client-id: ART-XE_FbhAzETbYNX6mqA7grhK4vBRqVmnBaaJpiIjFZhGNStAp_jf2ajXh4u9243SoWIQhG57TDXzX
