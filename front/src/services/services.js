@@ -1,47 +1,47 @@
 import axios from 'axios';
 
 class Services {
-    getUsers() {
-        return  axios.get("http://localhost:8080/api/getUsers");
-    }
+  getUsers() {
+      return  axios.get("http://localhost:8080/api/getUsers");
+  }
 
-    getPolizas() {
-        return  axios.get("http://localhost:8080/api/getPolizas");
-    }
+  getPolizas() {
+      return  axios.get("http://localhost:8080/api/getPolizas");
+  }
 
-    getFacturas(id) {
-        return  axios.get(`http://localhost:8080/api/getFacturas/${id}`);
-    }
+  getFacturas(id) {
+      return  axios.get(`http://localhost:8080/api/getFacturas/${id}`);
+  }
 
-    login(correo,contra) {
-        return axios.post('http://localhost:8080/api/login', {
-            "correo": correo,
-            "contraseña": contra
+  login(correo,contra) {
+      return axios.post('http://localhost:8080/api/login', {
+          "correo": correo,
+          "contraseña": contra
         });
-    }
+  }
 
-    registry(nombre,apellido,correo,telefono,contraseña) {
-        return axios.post('http://localhost:8080/api/registry', {
-            "nombre": nombre,
-            "apellido": apellido,
-            "correo": correo,
-            "telefono": telefono,
-            "contraseña": contraseña
-        });
-    }
+  registry(nombre,apellido,correo,telefono,contraseña) {
+    return axios.post('http://localhost:8080/api/registry', {
+        "nombre": nombre,
+        "apellido": apellido,
+        "correo": correo,
+        "telefono": telefono,
+        "contraseña": contraseña
+      });
+  }
 
-    comprapoliza(iduser, nombre, correo, apellido, telefono, coberturapoliza, formadepago, numerodecuotas ) {
-        return axios.post('http://localhost:8080/api/comprapoliza', {
-            "iduser": iduser,
-            "nombre": nombre,
-            "correo": correo,
-            "apellido": apellido,
-            "telefono": telefono,
-            "coberturapoliza": coberturapoliza,
-            "formadepago": formadepago,
-            "numerodecuotas": numerodecuotas,
-        });
-    }
+  comprapoliza(iduser, nombre, correo, apellido, telefono, coberturapoliza, formadepago, numerodecuotas ) {
+    return axios.post('http://localhost:8080/api/comprapoliza', {
+        "iduser": iduser,
+        "nombre": nombre,
+        "correo": correo,
+        "apellido": apellido,
+        "telefono": telefono,
+        "coberturapoliza": coberturapoliza,
+        "formadepago": formadepago,
+        "numerodecuotas": numerodecuotas,
+      });
+  }
 }
 
 export default new Services();

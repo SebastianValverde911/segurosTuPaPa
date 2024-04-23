@@ -24,7 +24,7 @@ function Login() {
                 localStorage.setItem("token", tokenSession);
                 localStorage.setItem("usuarioCorreo", usuario);
                 //localStorage.getItem("token");
-
+                
                 navigate('/home');
             } else {
                 console.log(response.data[0].errorMessage);

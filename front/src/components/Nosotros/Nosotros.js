@@ -3,7 +3,6 @@ import Menu from '../Menu/Menu';
 
 function Nosotros() {
     
-
     return(
         <div>
             <Menu />

@@ -6,3 +6,11 @@
     display: flex;
     gap: 10px;
 }
+
+.card-text.description {
+    width: 230px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;    
+}

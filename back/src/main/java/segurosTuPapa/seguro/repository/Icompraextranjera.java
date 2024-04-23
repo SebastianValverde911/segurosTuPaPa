@@ -5,6 +5,3 @@ import segurosTuPapa.seguro.entity.CompraExtranjera;
 
 public interface Icompraextranjera extends JpaRepository<CompraExtranjera, Long>{
 }
-
-
-

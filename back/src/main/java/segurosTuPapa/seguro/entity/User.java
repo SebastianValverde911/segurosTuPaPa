@@ -24,14 +24,13 @@ public class User {
     @Column(name="contraseña")
     private String contraseña;
 
-    public User(long id, String nombre, String apellido, String contraseña,String correo, String telefono ){
+    public User(long id, String nombre, String apellido, String correo, String telefono , String contraseña){
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.contraseña = contraseña;
         this.correo = correo;
         this.telefono = telefono;
-
+        this.contraseña = contraseña;
     }
 
     public User() {

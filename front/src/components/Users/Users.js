@@ -35,32 +35,32 @@ function Users() {
             <h2 className="text-center">Listado de usuarios</h2>
             <table className="table table-bordered table-striped">
                 <thead>
-                <th>Id</th>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Correo</th>
-                <th>Telefono</th>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
                 </thead>
                 <tbody>
-                {
-                    usuarios.map(usuario =>
-                        <tr key={usuario.id}>
-                            <td>{usuario.id}</td>
-                            <td>{usuario.nombre}</td>
-                            <td>{usuario.apellido}</td>
-                            <td>{usuario.correo}</td>
-                            <td>{usuario.telefono}</td>
-                            <td><button class="btn btn-primary" onClick={e => onclickVerFactura(e,usuario.id)}>Ver facturas</button></td>
-                        </tr>
-                    )
-                }
+                    {
+                        usuarios.map(usuario => 
+                            <tr key={usuario.id}>
+                                <td>{usuario.id}</td>
+                                <td>{usuario.nombre}</td>
+                                <td>{usuario.apellido}</td>
+                                <td>{usuario.correo}</td>
+                                <td>{usuario.telefono}</td>
+                                <td><button class="btn btn-primary" onClick={e => onclickVerFactura(e,usuario.id)}>Ver facturas</button></td>
+                            </tr>
+                        )
+                    }
                 </tbody>
             </table>
 
             {facturas.length > 0 ? <>
-                <h2 className="text-center">Listado de facturas</h2>
-                <table className="table table-bordered table-striped">
-                    <thead>
+            <h2 className="text-center">Listado de facturas</h2>
+            <table className="table table-bordered table-striped">
+                <thead>
                     <th>Id user</th>
                     <th>Nombre</th>
                     <th>Correo</th>
@@ -69,10 +69,10 @@ function Users() {
                     <th>Cobertura</th>
                     <th>Forma de pago</th>
                     <th>Numero de cuotas</th>
-                    </thead>
-                    <tbody>
+                </thead>
+                <tbody>
                     {
-                        facturas.map(factura =>
+                        facturas.map(factura => 
                             <tr key={factura.id}>
                                 <td>{factura.id}</td>
                                 <td>{factura.idUser}</td>
@@ -83,12 +83,12 @@ function Users() {
                                 <td>{factura.coberturapoliza}</td>
                                 <td>{factura.formadepago}</td>
                                 <td>{factura.numerodecuotas}</td>
-
+                                
                             </tr>
                         )
                     }
-                    </tbody>
-                </table></> :<></>}
+                </tbody>
+            </table></> :<></>}
         </div>
     );
 }
