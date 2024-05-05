@@ -1,9 +1,9 @@
-package segurosTuPapa.seguro.service;
+package segurosTuPapa.seguro.infraestructure;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import segurosTuPapa.seguro.entity.User;
-import segurosTuPapa.seguro.repository.Iuser;
+import segurosTuPapa.seguro.aplication.User;
+import segurosTuPapa.seguro.domain.Iuser;
 
 @Service
 public class Authentication {

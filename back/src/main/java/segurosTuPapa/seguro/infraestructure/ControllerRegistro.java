@@ -1,12 +1,9 @@
-package segurosTuPapa.seguro.controllers;
+package segurosTuPapa.seguro.infraestructure;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import segurosTuPapa.seguro.entity.User;
-import segurosTuPapa.seguro.repository.Iuser;
-
-import java.util.List;
+import segurosTuPapa.seguro.aplication.User;
+import segurosTuPapa.seguro.domain.Iuser;
 
 @CrossOrigin(origins = "http://localhost:3000/")
 @RestController
