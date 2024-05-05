@@ -1,4 +1,4 @@
-package segurosTuPapa.seguro.entity;
+package segurosTuPapa.seguro.aplication;
 
 import jakarta.persistence.*;
 

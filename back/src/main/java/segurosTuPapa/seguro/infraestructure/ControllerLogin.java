@@ -1,16 +1,11 @@
-package segurosTuPapa.seguro.controllers;
+package segurosTuPapa.seguro.infraestructure;
 
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import segurosTuPapa.seguro.entity.Login;
-import segurosTuPapa.seguro.entity.User;
-import segurosTuPapa.seguro.repository.Iuser;
-import segurosTuPapa.seguro.service.Authentication;
+import segurosTuPapa.seguro.aplication.Login;
 
 import java.util.ArrayList;
 import java.util.List;

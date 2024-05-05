@@ -1,9 +1,4 @@
-package segurosTuPapa.seguro.entity;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+package segurosTuPapa.seguro.aplication;
 
 public class Login {
 
