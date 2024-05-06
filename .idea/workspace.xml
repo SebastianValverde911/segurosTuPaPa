@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e294da3d-14f9-4f17-9832-e0e162d9403b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/SignUp/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/SignUp/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/services/services.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/back">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cashcard" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f41b66af9925b6476e18c77d476f905710ee8488/lombok-1.18.30-sources.jar!/lombok/extern/slf4j/Slf4j.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="proportion" value="0.58459425" />
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2f6e7yASo7FjddORKZF223lV171" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.Build back.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Database view&quot;: &quot;Database&quot;,
+    &quot;Notification.DoNotAsk-Database view&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PayIntegrationApp.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SeguroApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Miguel&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Seguros tu papa/segurosTuPaPa-main/back/src/main/resources/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\IntelliJ IDEA 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\miguelangel.jt\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="78bdd462-6ee5-44b5-9fc4-2c33a754db7f" reportId="segurosTuPaPa-main/qodana/2024-04-21" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Seguros tu papa\segurosTuPaPa-main\back\src\main\resources\templates" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Seguros tu papa\segurosTuPaPa-main\back\src\main\resources\templates" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="segurosTuPapa.seguro.Compra.config.paypal" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PayIntegrationApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cashcard.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="segurosTuPapa.seguro.PayIntegrationApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e294da3d-14f9-4f17-9832-e0e162d9403b" name="Changes" comment="" />
+      <created>1713125800954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713125800954</updated>
+      <workItem from="1713125828127" duration="20002000" />
+      <workItem from="1713150414439" duration="98000" />
+      <workItem from="1713150872834" duration="4213000" />
+      <workItem from="1713302592784" duration="2082000" />
+      <workItem from="1713381277509" duration="1602000" />
+      <workItem from="1713567281481" duration="3236000" />
+      <workItem from="1713584782519" duration="3911000" />
+      <workItem from="1713597780115" duration="4155000" />
+      <workItem from="1713628890414" duration="3927000" />
+      <workItem from="1713657437872" duration="4407000" />
+      <workItem from="1713665142535" duration="3799000" />
+      <workItem from="1713670704306" duration="2343000" />
+      <workItem from="1713675468528" duration="318000" />
+      <workItem from="1713676094790" duration="9781000" />
+      <workItem from="1713725472132" duration="597000" />
+      <workItem from="1713728942736" duration="1754000" />
+      <workItem from="1713731943046" duration="6007000" />
+      <workItem from="1713739714010" duration="5067000" />
+      <workItem from="1713832040608" duration="2448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

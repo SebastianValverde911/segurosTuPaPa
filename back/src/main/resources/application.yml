@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: cashcard
+  data:
+      mongodb:
+        uri: mongodb+srv://equiposoftwareMJMS:seguros.tupap@24@cosmosmongodb-segurostupppagos.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000
+        database: cosmosmongodb-segurostupppagos
+  datasource:
+    url: jdbc:postgresql://segurostupp.postgres.database.azure.com:5432/segurostupapa?ssl=true&sslmode=require
+    username: equiposoftware
+    password: seguros.tupap@24
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
+paypal:
+  client-id: ART-XE_FbhAzETbYNX6mqA7grhK4vBRqVmnBaaJpiIjFZhGNStAp_jf2ajXh4u9243SoWIQhG57TDXzX
+  client-secret: EF-0tG68Oj0xWgI8YnxjoGq5rtoCruoqgfhvM5K1ovTO3YchPpXwbeCk1t_-S7t_sC_iJ9VyDghjfJH_
+  mode: sandbox #Use #sanbox for texting and 'live' for Production
+
+
+

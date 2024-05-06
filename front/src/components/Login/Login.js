@@ -56,7 +56,7 @@ function Login() {
                         ¿No tienes cuenta? <Link className={'link'} to={'/registrarte'}>Registrate</Link>
                     </div>
                     <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                    </form>
+                </form>
             </div>
             {showNotification ? <Notification data={{status:'warning',message:'No existe el usuario.'}} />:<></>}
         </div>
