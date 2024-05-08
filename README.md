@@ -12,8 +12,10 @@ npm install bootstrap
 
 Ejecutar en la terminal en el directorio de la carpeta backend:
 
+```
 ./gradlew clean build -x test
 docker-compose up 
+```
 
 # Prueba en postman del servicio para obtener todos los usuarios
 ```
