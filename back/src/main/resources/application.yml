@@ -20,5 +20,9 @@ paypal:
   client-secret: EF-0tG68Oj0xWgI8YnxjoGq5rtoCruoqgfhvM5K1ovTO3YchPpXwbeCk1t_-S7t_sC_iJ9VyDghjfJH_
   mode: sandbox #Use #sanbox for texting and 'live' for Production
 
+exchange:
+  access_key:fcce56c5b815d45eedb733f4b4d462a6
+
+
 
 

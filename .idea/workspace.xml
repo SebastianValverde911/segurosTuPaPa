@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e294da3d-14f9-4f17-9832-e0e162d9403b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9815e47e-af73-4f01-bc94-9ee12c902a2c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9815e47e-af73-4f01-bc94-9ee12c902a2c/storage_v2/_src_/database/segurostupapa.OZSmXA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9815e47e-af73-4f01-bc94-9ee12c902a2c/storage_v2/_src_/database/segurostupapa.OZSmXA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9815e47e-af73-4f01-bc94-9ee12c902a2c/storage_v2/_src_/database/segurostupapa.OZSmXA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9815e47e-af73-4f01-bc94-9ee12c902a2c/storage_v2/_src_/database/segurostupapa.OZSmXA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cashcard.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cashcard.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/segurosTuPapa/seguro/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/SignUp/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/SignUp/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Users/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/services/services.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,7 @@
     &quot;Spring Boot.SeguroApplication.executor&quot;: &quot;Run&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Miguel&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;MiguelN&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Seguros tu papa/segurosTuPaPa-main/back/src/main/resources/templates&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -106,7 +109,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\IntelliJ IDEA 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -131,9 +137,10 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="PayIntegrationApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="SeguroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="cashcard.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="segurosTuPapa.seguro.PayIntegrationApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="segurosTuPapa.seguro.SeguroApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,7 +149,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -173,6 +181,11 @@
       <workItem from="1713731943046" duration="6007000" />
       <workItem from="1713739714010" duration="5067000" />
       <workItem from="1713832040608" duration="2448000" />
+      <workItem from="1715182865435" duration="1345000" />
+      <workItem from="1715184592434" duration="1600000" />
+      <workItem from="1715198043354" duration="27000" />
+      <workItem from="1715198095585" duration="2741000" />
+      <workItem from="1715278921500" duration="3577000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package segurosTuPapa.seguro.Compra.config.paypal;
+package segurosTuPapa.seguro.Paypal.paypal;
 
 
 import com.paypal.api.payments.*;

@@ -1,4 +1,4 @@
-package segurosTuPapa.seguro.Compra.config;
+package segurosTuPapa.seguro.Paypal;
 
 
 import com.paypal.base.rest.APIContext;
