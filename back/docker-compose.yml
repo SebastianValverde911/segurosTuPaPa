@@ -1,13 +1,20 @@
 version: '3.9'
 
 services:
+<<<<<<< HEAD
   java_app:
     container_name: java_app
     image: seguros-tu-papa:1.0.0
+=======
+  java_app: #servicio para crear el contenedor de la API
+    container_name: segurostupapa_app
+    image: backend-seguros-tu-papa:1.0.0
+>>>>>>> c1fe71404fd293bb77d7cdacc8614065f2f5a7e6
     build: .
     ports:
       - 8080:8080
     environment:
+<<<<<<< HEAD
       - DATABASE_URL=jdbc:postgresql://java_db:5432/postgres
       - DATABASE_USERNAME=postgres
       - DATABASE_PASSWORD=postgres
@@ -16,11 +23,25 @@ services:
 
   java_db:
     container_name: java_db
+=======
+      - DATABASE_URL=jdbc:postgresql://postgres:5432/bdsegurostupapa
+      - DATABASE_USERNAME=postgres
+      - DATABASE_PASSWORD=root
+    depends_on:
+      - miBD
+
+  miBD: #Servicio para crear el contenedor de la BD
+    container_name: DBsegurostupapa
+>>>>>>> c1fe71404fd293bb77d7cdacc8614065f2f5a7e6
     image: postgres:16.2
     ports:
       - 5432:5432
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
+<<<<<<< HEAD
       POSTGRES_DB: postgres
     
+=======
+      POSTGRES_DB: postgres
+>>>>>>> c1fe71404fd293bb77d7cdacc8614065f2f5a7e6
